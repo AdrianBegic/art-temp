@@ -3,7 +3,7 @@
         <div class="text-holder">
       <container>
           <div class="row body">
-          <h1 class="contact"> Contact Me</h1>
+          <h1 class="contact"> Contact Us</h1>
      <form class="form" id="form1">
       
       <p class="name">
@@ -46,7 +46,7 @@ export default {
 
 <style scoped>
     .box {
-  background-color: #F3D7C1;
+  background-color: #480E01;
   width: 60vw;
   height: 70vh;
   margin: 0 auto;
@@ -72,11 +72,13 @@ p {
 .contact {
   font-size: 3em;
   padding: 20px;
+  color: #fff;
 }
 
 .sub-contact {
   font-size: 2em;
    padding: 20px;
+   color: #fff;
 }
 
 .img-holder {
@@ -115,7 +117,7 @@ a {
 }
 
 a:hover {
-  color: #666;
+  color: #000;
 }
 
 @media only screen and (min-width: 768px) {
@@ -245,7 +247,7 @@ input:focus, textarea:focus {
 .ease {
 	width: 0px;
 	height: 74px;
-	background-color: #fbfbfb;
+	background-color: #F4CE53;
 	-webkit-transition: .3s ease;
 	-moz-transition: .3s ease;
 	-o-transition: .3s ease;

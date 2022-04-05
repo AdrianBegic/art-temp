@@ -2,7 +2,7 @@
   <div>
     <footer class="footer-distributed">
       <div class="footer-left">
-        <h3>Gary Owen Framing and Art Restoration</h3>
+        <h3>Antique Art Restoration</h3>
 
         <p class="footer-links">
           <router-link class="header__nav-link" to="/">Home</router-link>
@@ -17,38 +17,38 @@
 
           <router-link class="header__nav-link" to="/About">About</router-link>
 
-          <router-link class="header__nav-link" to="/Contact">Contact</router-link>
+          <router-link class="header__nav-link" to="/Contact"
+            >Contact</router-link
+          >
         </p>
 
         <p class="footer-company-name">
-          Gary Owen Framing and Art Restoration © {{ currentYear }}
+          Antique Art Restoration © {{ currentYear }}
         </p>
       </div>
 
       <div class="footer-center">
         <div>
           <i class="fa fa-map-marker"></i>
-          <p><span>118 B Dunlop St. East</span> Barrie,ON. L4M 1A4</p>
+          <p><span>261 Glen Cove Ave Rear</span> Sea Cliff, NY 11579</p>
         </div>
 
         <div>
           <i class="fa fa-phone"></i>
-          <p>705 727 4003</p>
+          <p>+1 516-316-9900</p>
         </div>
 
         <div>
           <i class="fa fa-envelope"></i>
           <p>
-            <a href="mailto:support@company.com">gary-framing@hotmail.com</a>
+            <a href="mailto:support@company.com">arteuro5@yahoo.com</a>
           </p>
         </div>
-        
       </div>
 
       <div class="footer-right">
         <p class="footer-company-about">
-
-           <img id="map" src="../assets/images/map-new.webp" />
+          <img id="map" src="../assets/images/map.webp" />
         </p>
       </div>
     </footer>
@@ -74,13 +74,12 @@ export default {
   width: 300px;
   height: 200px;
   min-height: 200px;
-max-height: 200px;
-border: solid 3px #77665C;
+  max-height: 200px;
+  border: solid 3px #77665c;
 }
 
-
 .footer-distributed {
-  background: #111;
+  background: #000;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -107,7 +106,7 @@ border: solid 3px #77665C;
 
 .footer-distributed h3 {
   color: #ffffff;
- font-size: 3em;
+  font-size: 3em;
   margin: 0;
 }
 
@@ -241,8 +240,6 @@ border: solid 3px #77665C;
 }
 
 @media (max-width: 880px) {
-
-
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right {
@@ -258,23 +255,19 @@ border: solid 3px #77665C;
 }
 
 @media only screen and (min-width: 768px) {
-    /* tablets and desktop */
-    a {
-     font-size: 0.8em;
-   }
+  /* tablets and desktop */
+  a {
+    font-size: 0.8em;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-    /* phones */
-   a {
-     font-size: 0.8em;
-   }
-
-   
-
-   
+  /* phones */
+  a {
+    font-size: 0.8em;
+  }
 }
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* portrait phones */
+  /* portrait phones */
 }
 </style>

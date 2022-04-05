@@ -43,7 +43,7 @@ img , svg {
 }
 
 .box {
- background-color: #fdecdc;
+ background-color: #000;
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -52,7 +52,7 @@ img , svg {
 }
 
 .work-title {
-  color: #111;
+  color: #fff;
   font-size: 3em;
 }
 
@@ -67,7 +67,7 @@ img , svg {
     display: inline-block;
     cursor: pointer;
   text-decoration: none;
-  color: #111;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 2em;
 }

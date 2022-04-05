@@ -2,19 +2,21 @@
   <div class="box">
     <div class="text-holder">
       <container>
-        <h1>GARY OWEN</h1>
         <h3 class="content">
-        My name is Gary Owen,
-          in the year 2000, after many years working in the art field, under
-          various disciplines l decided to go out on my own again and open a
-          gallery, framing shop and art restoration studio in my home town of
-          Barrie, Ontario...
+          Antique Art Restoration is a profession practiced by a small group of
+          Artists and skilled technicians. Modern restoration and conservation
+          demand the use of the finest techniques, materials, and equipment from
+          around the world. Antique Art Restoration uses these international
+          methods when restoring works of art. Our staff of conservators has
+          worked at some of the finest art museums and institutes in the world.
         </h3>
-        <router-link class="header__nav-link" to="/About">Read More ❯</router-link>
+        <router-link class="header__nav-link" to="/About"
+          >Read More ❯</router-link
+        >
       </container>
     </div>
     <div class="img-holder">
-      <img id="owen" src="@/assets/images/owen.webp" />
+      <img id="owen" src="../assets/images/splash_3.webp" />
     </div>
   </div>
 </template>
@@ -29,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 img {
   max-width: 100%;
@@ -47,11 +49,11 @@ p {
 }
 
 .box {
-  background-color: #F3D7C1;
+  background-color: #f3d7c1;
   width: 70vw;
   height: 70vh;
   margin: 0 auto;
-  padding:0;
+  padding: 0;
   border-radius: 5px;
 }
 
@@ -60,33 +62,30 @@ p {
   width: 50%;
   height: 100%;
   padding: 0;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .text-holder {
   float: left;
   width: 50%;
   height: 100%;
-  color: #4d4d4d;
+  color: #000;
   font-weight: 100;
   padding: 30px;
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .title-services {
   padding: 2% 0% 2%;
 }
 
-
-
 a {
   cursor: pointer;
   text-decoration: none;
   color: #000;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2em;
 }
 
@@ -95,48 +94,46 @@ a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-    /* tablets and desktop */
+  /* tablets and desktop */
 }
 
 @media only screen and (max-width: 767px) {
-    /* phones */
-    .box{
+  /* phones */
+  .box {
     height: auto;
     width: 100vw;
     border-radius: 0px;
   }
 
-h1 {
-  padding: 5%;
-  font-size: 3em;
-}
-   .text-holder { 
-    float: none;
-    margin-right:0;
-    width:100%;
-    height: auto;   
+  h1 {
+    padding: 5%;
+    font-size: 3em;
   }
-  .img-holder{
+  .text-holder {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+  }
+  .img-holder {
     height: 50%;
-    width:100%;
+    width: 100%;
   }
 
-  .content{
+  .content {
     padding-bottom: 5%;
   }
 
-#owen {
-  border-radius: 0px 0px 0px 0px;
-}
+  #owen {
+    border-radius: 0px 0px 0px 0px;
+  }
 
-
-  #media-width{
+  #media-width {
     display: none;
   }
 }
 
 @media only screen and (max-width: 767px) and (orientation: portrait) {
-    /* portrait phones */
+  /* portrait phones */
 }
-
 </style>

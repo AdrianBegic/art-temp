@@ -4,15 +4,15 @@
     <div class="routing" v-if="this.$route.path == '/'">
       <div class="slide-0">
         <div class="intro__content">
-          <h1 class="intro__title">GARY OWEN</h1>
+          <h1 class="intro__title">Antique Art Restoration</h1>
           <h1 class="intro__sub__title">
-            FINE ART RESTORATION AND FRAMING SINCE 1988
+            Antique Art Restoration located in Sea Cliff since 1997
           </h1>
         </div>
       </div>
 
       <div class="intro-slide">
-        <homePageBanner/>
+        <h1 class="intro-slide-text">Welcome to Antique Paintings Sculpture Ceramic & All  Materials Restoration</h1>
       </div>
 
 <div class="parallaxOne"><Box/></div>
@@ -39,7 +39,6 @@ import Box from "@/components/box.vue";
 import contactForm from '@/components/contactForm.vue'
 import boxTwo from "@/components/boxTwo.vue";
 import footerMain from "@/components/footer-main.vue";
-import homePageBanner from '@/components/homePageBanner.vue'
 import topButton from '@/components/topButton.vue'
 
 export default {
@@ -50,7 +49,6 @@ export default {
     contactForm,
     boxTwo,
     footerMain,
-    homePageBanner,
     topButton,
   },
 
@@ -114,7 +112,7 @@ export default {
 }
 
 .slide-0 {
-  background-image: url("./assets/images/pexels-photo-2378469.jpeg");
+  background-image: url("./assets/images/sculptures.jpg");
   background-repeat: no-repeat, repeat;
    background-size: cover;
   color: #fff;
@@ -134,7 +132,7 @@ export default {
 /*------------PARALLAX-------------*/
 
 .parallaxOne {
-  background-image: url("./assets/images/splash-6.webp");
+  background-image: url("./assets/images/splash_1.jpg");
   height: auto;
   background-attachment: fixed;
   background-position: center;
@@ -145,7 +143,7 @@ export default {
 
 
 .parallaxTwo {
-  background-image: url("./assets/images/splash-5.webp");
+  background-image: url("./assets/images/splash_2.jpg");
   height: auto;
   background-attachment: fixed;
   background-position: center;
@@ -156,12 +154,18 @@ export default {
 
 /*------------------------------------------*/
 .intro-slide {
-  background-color: #fdecdc;
+  background-color: #480E01;
   color: #fff;
   width: 100%;
   height: auto;
-  display: flex;
+  display: block;
   align-items: center;
+}
+
+.intro-slide-text{
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .slide-1 {
@@ -174,7 +178,7 @@ export default {
 }
 
 .slide-2 {
-  background-color: #fdecdc;
+  background-color: #000;
   color: #fff;
   width: 100%;
   height: fit-content;
@@ -219,12 +223,13 @@ export default {
 }
 
 .intro__title {
-  font-size: 20vw;
+  font-size: 10vw;
   overflow: hidden;
-  letter-spacing: -2.3vw;
+  letter-spacing: .5vw;
   padding-top: 10%;
   position: relative;
   text-align:center;
+  text-transform: uppercase;
 }
 
 .intro__sub__title {

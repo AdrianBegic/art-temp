@@ -1,6 +1,6 @@
 <template>
 <header class="header">
-    <router-link class="header__logo" to="/">G<span id="logo">O</span></router-link>
+    <router-link class="header__logo" to="/">A<span id="logo">R</span></router-link>
     <div class="ham-menu" @click="changeVisibility()" :class="{ 'active': burgerVisibility }">
         <span class="ham-menu__item"></span>
         <span class="ham-menu__item"></span>
@@ -47,7 +47,7 @@ data() {
 .header {
     display: flex;
     width: 100%;
-    background-color: #936F5D;
+    background-color: #480E01;
     color: #fff;
     align-items: center;
     position: fixed;
@@ -77,10 +77,10 @@ data() {
     display: inline-block;
     height: auto;
     text-decoration: none;
-    color: #000;
-    width: 20px;
-    font-size: 4em;
-    letter-spacing: -22px;
+    color: #fff;
+    width: auto;
+    font-size: 3em;
+    
 }
 
 #logo {
